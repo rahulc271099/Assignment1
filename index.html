@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .main-section {
+        width: 1000px;
+        height: 100vh;
+        margin: 0;
+        background-image: url(./images/Laptop-image.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .main-section p {
+        font-size: 20px;
+        padding: 20px;
+        color: antiquewhite;
+      }
+      .main-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+        z-index: 1;
+      }
+      .main {
+        position: relative;
+        text-align: center;
+        z-index: 2;
+        color: white;
+      }
+
+      .social-icons i:hover {
+        color: beige;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <section class="container">
+        <div class="header-section">
+          <!-- header section -->
+          <header>
+            <h3>Hello,my name</h3>
+            <h1>Rahul c</h1>
+            <h2>Web Developer</h2>
+            <nav>
+              <a href="./About.html">About</a>
+              <a href="./Skills.html">Skills</a>
+              <a href="./Projects.html">Project</a>
+              <a href="./Contacts.html">Contact</a>
+            </nav>
+          </header>
+        </div>
+        <div class="image-section">
+          <!-- image section -->
+          <img
+            class="img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAACUCAMAAACtIJvYAAAAMFBMVEXk5ueutLeor7Lf4ePn6eqrsbWyuLvKztC3vL/q7O3Z3N2/xMbS1dfEyMu7wMPV2NrKxAJiAAADcklEQVR4nO2bzXqsIAxAEQIiP/r+b3tRp722HQeSMXEWnE3b3flCCEhSpTqdTqfT6XQ6nU6n0+l0OjUAlFkpv8DdLg9ALePs3Yr3cTQfIAYmxUHb4Rurh7yoW8VAZWcPSg+xwaX7vMDkv0o7unjdJLW4E6ctYM7cEq6sz502r1Fey/gXgXpoRWmp4GpOq5aXlTINTqvWLCrVEqk9WoK51eg0SOYWxGqiH7SEdiKMCKlSUIOIlUFJDYPMRpxxUjJruCBDVbT4pSasU7HK3MGCpXL6PcMZZit0Vm3B4s6sQJAqTKxSyFr1hV5YrabWA/An3PlOyPUV1koKibSAzLsQMk1qsKyJRakLmxVnbTCeajUz1obmO+gf/EdaWUarQNyCpY52q3Yrxj34obGiSrFmO30Puo+04qyiilzbOa8yEIlWmvPpj3gVLbB+QBvqrY/1K2ciWs2sN2TIpCW0iffejv+eX+E8bzYotcFGZivaLmR/wgKCFf+bLSFYIq992LPQRt5Xhg1I2Jol8jA61XslRzRzrfoCdZ8R6wNAQKyhk3FSqH2o2R8fj1qt0QqSPcLGaNlFtnHZVB+caKQ2rZdd5y1QvFe9Ey31svVl9SjvtHmdh8taL75631pqdM/Sy2qf7pxLAZX8r+kPa12UaQm+8gKTstNa20L54XP6hPmdNWCgzJIKwWx/fgIAMB24OVCwzYKFZRzj7PdrhPNzzGMK4ab5MJhUWG3KfrM/sn3LrsHNcVzMJHAJ/W+kTMj+l83fimX1MCcjlGaTGucno2AnBX7w2UzsDV6TnMZ95BSzMTBGDKYl1o7k52JlKZmSv5Txp8dLo5jNDLNrAM+PPISXyxevY4nTQH5q54oXLLhPwHMvd1mfEMz83tr99LrmKg+JtO/OyRc4qXhdoHbs2x8ZEC4O1M572UWeFKig35n2oz/613hjkhQ1VYjVoo4pc0qRtXiliFrELgRKCy/FlugHLWzKk8b38FrIXmbjTPbbWqiXXJj512/XQjwmSSTVwwrROBRav43mhjR/UTjQXB6ozWUSrVNsk1Sq7zQGiz4MQ8K2vZ+KbcAHbRWePAtDRLd8X4icNUdaeuXkURg6LfkuvYCF+uBt0z9wXUu9ZEESlyoXmmpaSdeFlXoTWPIM/KKe7l7fQNXK3EHVqtPpdDqdzs38A5h8KnfC0tOrAAAAAElFTkSuQmCC"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="main-section">
+        <section class="main">
+          <h1>Welcome to My Portfolio</h1>
+          <p>
+            Hello! I’m Rahul c, a Web-Developer passionate about user friendly
+            Applications. Here, you’ll find my projects, skills, and experiences
+            that showcase my journey and expertise.
+          </p>
+          <p>Feel free to explore and connect with me.</p>
+        </section>
+
+        <footer>
+          <p>Rahul c</p>
+          <div class="social-icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <p>2024</p>
+        </footer>
+      </section>
+
+     
+    </div>
+  </body>
+</html>

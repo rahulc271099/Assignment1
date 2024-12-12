@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .main-container {
+        background-image: url(./images/skills-image.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .main-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+        z-index: 1;
+      }
+      .skills-section {
+        position: relative;
+        text-align: center;
+        z-index: 2;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- skills-section -->
+      <section class="skills-section" id="skills">
+        <h2>My Skills</h2>
+
+        <div class="input-section">
+          <div class="input-display">
+            <label for="html">HTML</label>
+            <input
+              type="range"
+              id="html"
+              min="0"
+              max="100"
+              value="100"
+              disabled
+            />
+            <p>100%</p>
+          </div>
+
+          <div class="input-display">
+            <label for="css">CSS</label>
+            <input
+              type="range"
+              id="css"
+              min="0"
+              max="100"
+              value="100"
+              disabled
+            />
+            <p>100%</p>
+          </div>
+
+          <div class="input-display">
+            <label for="html">javascript</label>
+            <input
+              type="range"
+              id="html"
+              min="0"
+              max="100"
+              value="100"
+              disabled
+            />
+            <p>100%</p>
+          </div>
+
+          <div class="input-display">
+            <label for="html">React</label>
+            <input
+              type="range"
+              id="html"
+              min="0"
+              max="100"
+              value="100"
+              disabled
+            />
+            <p>100%</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>Rahul c</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>2024</p>
+      </footer>
+    </div>
+  </body>
+</html>
